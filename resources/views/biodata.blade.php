@@ -39,8 +39,8 @@
 </div>
 @endsection
 @section('script')
-<script src="{{asset('dist/vendor/datatables/jquery.dataTables.min.js')}}">
+<!-- <script src="{{asset('dist/vendor/datatables/jquery.dataTables.min.js')}}">
 </script>
 <script src="{{asset('dist/vendor/datatables/dataTables.bootstrap4.min.js')}}"></script>
-<script src="{{asset('dist/js/demo/datatables-demo.js')}}"></script>
+<script src="{{asset('dist/js/demo/datatables-demo.js')}}"></script> -->
 @endsection

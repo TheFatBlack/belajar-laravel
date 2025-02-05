@@ -13,15 +13,18 @@ Route::get('/home', function () {
         "nama"=>"apip",
         "kelas"=>"XI RPL 2",
         "alamat"=>"kampung dalam",
-        "mantanapip"=>$mantanapip
+        "mantanapip"=>$mantanapip,
+        "menu"=>"mantan"
     ]);
-})->name('member');
+})->name('mantan');
 
 Route::get('/try', [belajar_controller::class, 'index'])->name('latihan');
 
 Route::get('/biodata', 
 [belajar_controller::class, 'biodata'])->name('biodata');
 
-Route::get('/sbadmin', function(){
-    return view('index'); 
+Route::get('/sbadmin', function () {
+    return view('index',[
+        "menu"=>'dashboard'
+    ]);
 })->name('dashboard');

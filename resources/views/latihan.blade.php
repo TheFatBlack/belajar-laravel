@@ -1,16 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('templates.layout')
+@section('halaman_judul','halaman latihan')
+@section('style')
+<style>
+h1 {
+    color: aqua;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+h2 {
+    color: blue;
+}
 
-<body>
-    <h1>ini halaman latihan laravel</h1>
-    <h2>materi hari ini adalah {{$judul}}</h2>
-    <h3>tanggal hari ini {{$tanggal}}</h3>
-</body>
-
-</html>
+h3 {
+    color: red;
+}
+</style>
+@endsection
+@section('kontent')
+<h1>ini halaman latihan laravel</h1>
+<h2>materi hari ini adalah {{$judul}}</h2>
+<h3>tanggal hari ini {{$tanggal}}</h3>
+@endsection

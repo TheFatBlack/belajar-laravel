@@ -12,16 +12,28 @@
     <hr class="sidebar-divider my-0">
 
     <!-- Nav Item - Dashboard -->
-    <li class="nav-item active">
+    <li class="nav-item {{$menu == 'dashboard' ? 'active' : ''}}">
         <a class="nav-link" href="{{route('dashboard')}}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
     <hr class="sidebar-divider d-none d-md-block">
-    <li class="nav-item active">
+    <li class="nav-item {{$menu == 'biodata' ? 'active' : ''}}">
         <a class="nav-link" href="{{route('biodata')}}">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="fas fa-fw fa-user"></i>
             <span>Biodata</span></a>
+    </li>
+    <hr class="sidebar-divider d-none d-md-block">
+    <li class="nav-item {{$menu == 'latihan' ? 'active' : ''}}">
+        <a class="nav-link" href="{{route('latihan')}}">
+            <i class="fas fa-fw fa-tasks"></i>
+            <span>Latihan</span></a>
+    </li>
+    <hr class="sidebar-divider d-none d-md-block">
+    <li class="nav-item {{$menu == 'mantan' ? 'active' : ''}}">
+        <a class="nav-link" href="{{route('mantan')}}">
+            <i class="fas fa-fw fa-users"></i>
+            <span>Mantan Apip</span></a>
     </li>
 
     <!-- Divider -->

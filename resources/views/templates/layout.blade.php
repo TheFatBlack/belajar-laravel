@@ -34,6 +34,7 @@
 
             <!-- Main Content -->
             <div id="content">
+                @include('templates.navbar')
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                     @yield('kontent')
