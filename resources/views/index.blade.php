@@ -4,38 +4,46 @@
 @section('style')
 <style>
 h1 {
-    color: aqua;
+    color: skyblue;
 }
 
-h6 {
-    color: blue;
+h2 {
+    color: cyan;
+}
+
+h5 {
+    color: darkturquoise;
     text-align: justify;
 }
 </style>
 @endsection
 @section('kontent')
 <h1> Halaman Index </h1>
-<h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, quo vero. Perspiciatis quae cumque laboriosam
-    placeat
-    commodi magni nulla tempore atque? Aperiam sapiente hic, voluptate consectetur inventore, quibusdam quo omnis
-    eveniet
-    ea, consequatur perspiciatis rem in et facere dignissimos officiis aut. Quibusdam impedit commodi natus voluptas
-    rerum
-    earum ea deserunt, reprehenderit consequuntur, voluptate tempora, cumque vitae consectetur fugit. Eveniet
-    voluptatibus
-    harum tenetur, molestias in ipsam consectetur ad expedita, libero repellendus ipsum vero. Veritatis necessitatibus
-    cum
-    repellat quos nihil quidem, ut rem voluptatem! Sit in aperiam impedit, necessitatibus facere dignissimos! Dolor
-    voluptas, tempora veritatis commodi neque amet illum quos praesentium, a tenetur aperiam qui, aliquid impedit
-    assumenda
-    necessitatibus aliquam inventore fugit dolores quisquam vero? Quo illum nihil unde. Voluptas a nostrum quas ipsa non
-    minima, quia hic veniam obcaecati optio delectus quaerat temporibus eveniet fuga sit! Ad, accusantium veniam eius
-    harum
-    soluta enim error quo dicta quaerat ducimus a? Perferendis quas eveniet laboriosam voluptatum nesciunt ratione
-    voluptatem, impedit placeat dolore, nemo cum odio officia libero alias tempore velit ipsam sint. Ratione consectetur
-    dolores neque id delectus harum ea beatae aliquam placeat dolorem, laborum veritatis eligendi reiciendis repellat
-    quod,
-    hic nobis at ipsam iusto est nisi aperiam? Laudantium temporibus expedita voluptas adipisci!</h6>
+<div class="col">
+    <div class="row">
+        <div class="card">
+            <div class="card-header">
+                <h2>Index</h2>
+            </div>
+            <div class="card-body">
+                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque tenetur fugiat amet molestiae
+                    soluta quibusdam veritatis deleniti at, omnis quo fuga consequatur earum numquam non doloribus
+                    explicabo maxime incidunt dignissimos dolorem aut ipsam! At voluptatum amet nesciunt, ipsum quidem
+                    magnam ex dolore voluptatem corrupti quae numquam facere saepe, maiores porro optio praesentium
+                    placeat. Vel dolore cupiditate magnam doloribus aut quod officiis eveniet ipsa velit ex provident
+                    error sequi nam odio ipsam alias, incidunt perferendis? Optio sapiente velit earum error numquam,
+                    aut animi, laborum assumenda voluptate possimus porro voluptas eveniet maiores harum itaque
+                    perferendis aliquid non id vel autem fuga architecto officia. Rerum, quas accusantium est nam
+                    aspernatur debitis harum ratione. Obcaecati laboriosam sapiente sint necessitatibus quibusdam
+                    consectetur accusantium architecto dolores ipsam, laudantium quia autem dolorem dolorum alias
+                    adipisci. Minus consectetur doloribus beatae adipisci nostrum deleniti perspiciatis cumque enim a
+                    debitis qui dolorem similique, sint veniam, optio velit mollitia. Debitis dolores accusamus non
+                    soluta ex consequuntur vero fugit repellat earum eligendi ea veniam ab nesciunt, totam iusto,
+                    voluptatibus doloribus quia. Adipisci.</h5>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
 @section('script')
 <script>
