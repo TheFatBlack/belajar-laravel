@@ -26,20 +26,18 @@ h5 {
                 <h2>Index</h2>
             </div>
             <div class="card-body">
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque tenetur fugiat amet molestiae
-                    soluta quibusdam veritatis deleniti at, omnis quo fuga consequatur earum numquam non doloribus
-                    explicabo maxime incidunt dignissimos dolorem aut ipsam! At voluptatum amet nesciunt, ipsum quidem
-                    magnam ex dolore voluptatem corrupti quae numquam facere saepe, maiores porro optio praesentium
-                    placeat. Vel dolore cupiditate magnam doloribus aut quod officiis eveniet ipsa velit ex provident
-                    error sequi nam odio ipsam alias, incidunt perferendis? Optio sapiente velit earum error numquam,
-                    aut animi, laborum assumenda voluptate possimus porro voluptas eveniet maiores harum itaque
-                    perferendis aliquid non id vel autem fuga architecto officia. Rerum, quas accusantium est nam
-                    aspernatur debitis harum ratione. Obcaecati laboriosam sapiente sint necessitatibus quibusdam
-                    consectetur accusantium architecto dolores ipsam, laudantium quia autem dolorem dolorum alias
-                    adipisci. Minus consectetur doloribus beatae adipisci nostrum deleniti perspiciatis cumque enim a
-                    debitis qui dolorem similique, sint veniam, optio velit mollitia. Debitis dolores accusamus non
-                    soluta ex consequuntur vero fugit repellat earum eligendi ea veniam ab nesciunt, totam iusto,
-                    voluptatibus doloribus quia. Adipisci.</h5>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi harum facere mollitia a. Corporis,
+                    quas unde nesciunt eum velit quos cumque, harum quibusdam molestiae expedita delectus aut nihil
+                    maxime ab vitae eaque rem. Commodi minus iste facilis eos reprehenderit magni? Debitis rem
+                    consectetur ab blanditiis laudantium! Quisquam hic neque minima libero et dicta facilis quasi quae
+                    perferendis. Tempora necessitatibus molestias maxime nam doloremque, quasi esse cumque, obcaecati
+                    voluptatem eaque ab quo consectetur unde atque debitis. Consectetur accusamus delectus pariatur
+                    provident laudantium officiis voluptatibus minus vero, quasi, eos, non nam inventore sint vitae
+                    quidem cumque culpa aut. Explicabo expedita ducimus sapiente ratione nulla, ullam id ad, qui
+                    eligendi saepe accusantium impedit! Porro sunt rem quibusdam fugiat eveniet, quos cupiditate
+                    mollitia natus est incidunt excepturi quam debitis libero. Earum iste beatae, eum soluta veniam
+                    reiciendis, provident similique nam numquam aut tempore excepturi. Adipisci consectetur magni fugiat
+                    est voluptates deleniti optio aliquam ut quos, laudantium exercitationem commodi ducimus?</h5>
             </div>
         </div>
     </div>
