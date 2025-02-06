@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\belajar_controller;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\localcontroller;
+use App\Http\Controllers\belajar_controller;
 
 Route::get('/', function () {
     return view('welcome');
@@ -28,3 +29,9 @@ Route::get('/sbadmin', function () {
         "menu"=>'dashboard'
     ]);
 })->name('dashboard');
+
+Route::get('/local', [localcontroller::class, 'index'])->name('local.index');
+
+Route::get('/local/create', [localcontroller::class, 'create'])->name('local.create');
+
+Route::post('/local', [localcontroller::class, 'store'])->name('local.store');

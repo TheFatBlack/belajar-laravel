@@ -26,7 +26,7 @@
     <hr class="sidebar-divider d-none d-md-block">
     <li class="nav-item {{$menu == 'latihan' ? 'active' : ''}}">
         <a class="nav-link" href="{{route('latihan')}}">
-            <i class="fas fa-fw fa-tasks"></i>
+            <i class="fas fa-fw fa-list"></i>
             <span>Latihan</span></a>
     </li>
     <hr class="sidebar-divider d-none d-md-block">
@@ -34,6 +34,12 @@
         <a class="nav-link" href="{{route('mantan')}}">
             <i class="fas fa-fw fa-users"></i>
             <span>Mantan Apip</span></a>
+    </li>
+    <hr class="sidebar-divider d-none d-md-block">
+    <li class="nav-item {{$menu == 'local' ? 'active' : ''}}">
+        <a class="nav-link" href="{{route('local.index')}}">
+            <i class="fas fa-fw fa-tasks"></i>
+            <span>Manajemen</span></a>
     </li>
 
     <!-- Divider -->
