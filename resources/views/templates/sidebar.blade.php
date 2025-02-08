@@ -1,4 +1,4 @@
-<ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -40,6 +40,12 @@
         <a class="nav-link" href="{{route('local.index')}}">
             <i class="fas fa-fw fa-tasks"></i>
             <span>Manajemen</span></a>
+    </li>
+    <hr class="sidebar-divider d-none d-md-block">
+    <li class="nav-item {{$menu == 'siswa' ? 'active' : ''}}">
+        <a class="nav-link" href="{{route('siswa.index')}}">
+            <i class="fas fa-fw fa-tasks"></i>
+            <span>Siswa</span></a>
     </li>
 
     <!-- Divider -->

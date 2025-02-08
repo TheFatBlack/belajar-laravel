@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\localcontroller;
 use App\Http\Controllers\belajar_controller;
+use App\Http\Controllers\siswacontroller;
 
 Route::get('/', function () {
     return view('welcome');
@@ -41,3 +42,5 @@ Route::get('/local/edit/{id}', [localcontroller::class, 'edit'])->name('local.ed
 Route::delete('/local/delete/{id}', [localcontroller::class, 'destroy'])->name('local.hapus');
 
 Route::put('/local/update', [localcontroller::class, 'update'])->name('local.update');
+
+Route::resource('siswa', siswacontroller::class);

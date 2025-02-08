@@ -1,5 +1,5 @@
 @extends('templates.layout')
-@section('halaman_judul','data kelas')
+@section('halaman_judul','data siswa')
 @section('kontent')
 <div class="row">
     <div class="col">
@@ -13,32 +13,28 @@
                         <thead>
                             <tr class="text-center">
                                 <th>No</th>
+                                <th>nama</th>
                                 <th>kelas</th>
-                                <th>wali</th>
+                                <th>Jenis Kelamin</th>
                                 <th>aksi</th>
                             </tr>
                         </thead>
-                        @foreach ($data_kelas as $dk)
+                        @foreach ($data_siswa as $ds)
                         <tbody>
                             <tr class="text-center">
                                 <td>{{$loop->iteration}}</td>
-                                <td>{{$dk->nama_kelas}}</td>
-                                <td>{{$dk->wali_kelas}}</td>
+                                <td>{{$ds->nama}}</td>
+                                <td>{{$ds->local->nama_kelas}}</td>
+                                <td>{{$ds->jk}}</td>
                                 <td>
-                                    <a href="{{route('local.edit',$dk->id)}}" class="btn btn-info btn-circle"
-                                        title="edit"><i class="fas fa-info-circle"></i></a>
-                                    <form action="{{route('local.hapus',$dk->id)}}" method="post" class="d-inline">
-                                        @csrf
-                                        @method('delete')
-                                        <button type="submit" class="btn btn-danger btn-circle" title="delete"><i
-                                                class="fas fa-trash"></i></button>
-                                    </form>
+                                    <a href="{{route('siswa.show', $ds->id)}}" class="btn btn-info btn-circle btn-sm"><i
+                                            class="fas fa-info"></i></a>
                                 </td>
                             </tr>
                         </tbody>
                         @endforeach
                     </table>
-                    <a href="{{route('local.create')}}" class="btn btn-danger mb-3 float-right">Tambah Data</a>
+                    <a href="{{route('siswa.create')}}" class="btn btn-danger mb-3 float-right">Tambah Data</a>
                 </div>
             </div>
         </div>
