@@ -29,6 +29,8 @@
                                 <td>
                                     <a href="{{route('siswa.show', $ds->id)}}" class="btn btn-info btn-circle btn-sm"><i
                                             class="fas fa-info"></i></a>
+                                    <a href="{{route('siswa.edit', $ds->id)}}" class="btn btn-info btn-circle btn-sm"><i
+                                            class="fas fa-info"></i></a>
                                 </td>
                             </tr>
                         </tbody>

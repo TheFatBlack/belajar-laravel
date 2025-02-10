@@ -1,11 +1,11 @@
 @extends('templates.layout')
-@section('title','data kelas')
+@section('title','edit data siswa')
 @section('kontent')
 <div class="row">
     <div class="col">
         <div class="card">
             <div class="card-header">
-                tambah data Siswa
+                edit data Siswa
             </div>
             <div class="card-body">
                 <form action="{{route('siswa.store')}}" method="post" enctype="multipart/form-data">
