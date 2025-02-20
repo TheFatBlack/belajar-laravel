@@ -39,7 +39,7 @@ Route::post('/local', [localcontroller::class, 'store'])->name('local.store');
 
 Route::get('/local/edit/{id}', [localcontroller::class, 'edit'])->name('local.edit');
 
-Route::delete('/local/delete/{id}', [localcontroller::class, 'destroy'])->name('local.hapus');
+Route::delete('/local/delete/{id}', [localcontroller::class, 'destroy'])->name('local.hapus',);
 
 Route::put('/local/update', [localcontroller::class, 'update'])->name('local.update');
 

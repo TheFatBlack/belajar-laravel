@@ -127,8 +127,17 @@ class siswacontroller extends Controller
         $simpan_foto = $request->file('foto')->store('foto_siswa');
         $siswa->foto = $simpan_foto;
     }
-
     $siswa->save();
+
+    return redirect()->route('siswa.index');
+}
+
+public function destroy($id): RedirectResponse {
+    $siswa = Siswa::find($id);
+    if ($siswa->foto) {
+        storage::delete($siswa->foto);
+    }
+    $siswa->delete();
 
     return redirect()->route('siswa.index');
 }

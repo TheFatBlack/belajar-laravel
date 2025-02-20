@@ -31,6 +31,12 @@
                                             class="fas fa-info"></i></a>
                                     <a href="{{route('siswa.edit', $ds->id)}}" class="btn btn-info btn-circle btn-sm"><i
                                             class="fas fa-info"></i></a>
+                                    <form action="{{route('siswa.destroy', $ds->id)}}" method="post" class="d-inline">
+                                        @csrf
+                                        @method('delete')
+                                        <button type="submit" class="btn btn-danger btn-circle btn-sm"><i
+                                                class="fas fa-trash"></i></button>
+                                    </form>
                                 </td>
                             </tr>
                         </tbody>
